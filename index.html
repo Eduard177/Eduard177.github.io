@@ -1,21 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>CV Resumen</title>
 </head>
-<body>
-    <header class="l-header" id="l-header">
 
-    </header>
+<body>
+    <header class="l-header" id="l-header"></header>
 
     <main class="l-main bd-container">
         <div class="resume" id="area-cv">
-            
+            <div class="resume__left">
+                <section class="home" id="home">
+                    <nav class="nav bd-container">
+                        <a href="#" class="nav__logo">Smerlyn</a>
+
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#home" class="nav__link">
+                                        <i class='bx bx-home'></i>Home
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#profile" class="nav__link">
+                                        <i class='bx bx-user' ></i>Profile
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#education" class="nav__link">
+                                        <i class='bx bx-book' ></i>Education
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#skills" class="nav__link">
+                                        <i class='bx bx-receipt' ></i>Skills
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#experience" class="nav__link">
+                                        <i class='bx bx-briefcase' ></i>Experience
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#certificates" class="nav__link">
+                                        <i class='bx bx-award' ></i>Certificates
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__menu" id="nav__menu">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#references" class="nav__link">
+                                        <i class='bx bx-link-external' ></i>References
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="nav__toggle" id="nav-toggle">
+                            <i class='bx bx-grid-alt'></i>
+                        </div>
+
+                    </nav>
+                </section>
+                <section class="social section"></section>
+                <section class="profile section" id="profile"></section>
+                <section class="education section" id="education"></section>
+                <section class="skills section" id="skills"></section>
+            </div>
+
+            <div class="resume__right">
+                <section class="experience section" id="experience"></section>
+                <section class="certificate section" id="certificates"></section>
+                <section class="references section" id="references"></section>
+                <section class="languages section"></section>
+                <section class="interests section"></section>
+            </div>
         </div>
     </main>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
