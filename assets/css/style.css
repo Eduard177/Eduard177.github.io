@@ -91,6 +91,7 @@ body.scale-cv {
   font-size: 1.2rem;
   color: var(--text-color);
   cursor: pointer;
+  display: none;
 }
 .generate-pdf:hover {
   color: var(--title-color);
@@ -545,7 +546,7 @@ img {
 @media screen and (max-width: 320px) {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem 0.5rem;
+    gap: 1rem .5rem;
   }
 }
 
