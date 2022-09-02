@@ -111,7 +111,7 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-  padding: 1.5rem 0 0.8rem;
+  padding: 1rem 0 0.8rem;
 }
 .scale-cv .section-title {
   margin-bottom: 0.75rem;
@@ -179,7 +179,7 @@ body.scale-cv {
 }
 
 .scale-cv .interests__container{
-  column-gap: 2.4rem;
+  column-gap: 2rem;
 }
 
 body {
@@ -224,7 +224,7 @@ img {
 /*========== CLASS CSS ==========*/
 
 .section {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .section-title {
@@ -334,10 +334,10 @@ img {
   position: relative;
 }
 .home__container {
-  gap: 3rem;
+  gap: 2rem;
 }
 .home__data {
-  gap: 0.5rem;
+  gap: 0.2rem;
   text-align: center;
 }
 .home__img {
@@ -355,7 +355,7 @@ img {
   margin-bottom: var(--mb-1);
 }
 .home__address {
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .home__information {
   display: flex;
@@ -466,7 +466,7 @@ img {
 .languages__name {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-2);
 }
 .skills__circle,
 .languages__circle {
