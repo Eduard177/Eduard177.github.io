@@ -31,7 +31,7 @@ function scrollActive() {
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id');
+        let sectionId = current.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
@@ -96,7 +96,7 @@ let resumeButton = document.getElementById('resume-button');
 
 let opt = {
     margin: 0,
-    filename: 'myCv.pdf',
+    filename: 'Eduard-CV.pdf',
     image: {type: 'jpeg', quality: 0.98},
     html2canvas: {scale: 4},
     jsPDF: {format: 'a4', orientation: 'portrait'}
